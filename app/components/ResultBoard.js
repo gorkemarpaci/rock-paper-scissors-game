@@ -44,7 +44,8 @@ export default function ResultBoard() {
 
   useEffect(() => {
     runHouseSelectionCallback();
-  }, [runHouseSelectionCallback]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const antSpinIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
 
