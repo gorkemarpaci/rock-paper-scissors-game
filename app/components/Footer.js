@@ -8,7 +8,7 @@ const Footer = () => {
   const { setRulesModalOpen } = useGame();
 
   return (
-    <div className="w-full px-8 bottom-8 grow flex flex-col sm:flex-row items-center sm:items-end justify-end sm:justify-between">
+    <div className="w-full px-8 mb-4 sm:mb-0 grow flex flex-col sm:flex-row items-center sm:items-end justify-end sm:justify-between">
       <HardModeButton />
       <button
         onClick={() => setRulesModalOpen(true)}
