@@ -51,7 +51,7 @@ export default function ResultBoard() {
 
   return (
     <div className="w-full lg:w-2/5 mt-16 flex flex-col justify-start items-center">
-      <div className="w-full flex flex-row justify-between items-end sm:items-start">
+      <div className="w-full px-8 flex flex-row justify-between items-end sm:items-start">
         <div className="min-h-selectedItemHeight min-w-selectedItemWidth flex flex-col-reverse sm:flex-col justify-between items-center shrink-0 grow-0 font-barlow font-bold tracking-widest text-base text-white">
           <span className="sm:mb-8  whitespace-nowrap text-ellipsis">
             {TEXTS.YOU_PICKED}

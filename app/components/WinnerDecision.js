@@ -38,7 +38,7 @@ const WinnerDecision = () => {
       {resultText}
       <button
         onClick={handlePlayAgain}
-        className="mt-4 w-full py-4 text-center font-barlow font-semibold bg-white text-xl text-blue-900 rounded-lg"
+        className="my-4 w-full py-4 text-center font-barlow font-semibold bg-white text-xl text-blue-900 rounded-lg"
         type="button"
       >
         PLAY AGAIN

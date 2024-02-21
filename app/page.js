@@ -6,7 +6,7 @@ import ScoreBoard from "./components/ScoreBoard";
 
 export default function Home() {
   return (
-    <div className="relative p-2 sm:p-16 w-full h-screen bg-gradient-to-b from-gradient1 to-gradient2 flex flex-col justify-start items-center">
+    <div className="relative p-2 sm:p-16 w-full min-h-screen bg-gradient-to-b from-gradient1 to-gradient2 flex flex-col justify-start items-center">
       <Header>
         <ScoreBoard />
       </Header>
